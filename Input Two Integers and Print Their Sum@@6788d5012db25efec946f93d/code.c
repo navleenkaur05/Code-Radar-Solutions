@@ -3,6 +3,6 @@ int main() {
     int x,y;
     scanf("%d",&x);
     scanf("%d",&y);
-    printf("%d", x+y);
+    printf("Sum: %d", x+y);
     return 0;
 }
