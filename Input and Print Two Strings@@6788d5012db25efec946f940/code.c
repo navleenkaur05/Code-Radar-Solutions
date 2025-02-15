@@ -1,9 +1,10 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    char a,b;
-    scanf(a);
-    scanf(b);
-    printf("you entered %char",a "and",b);
+    char *a,*b;
+    scanf("%c",*a);
+    printf("you entered:%c",a);
+    scanf("%c",*b);
+    printf(" and %c",b);
     return 0;
 }
