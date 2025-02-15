@@ -1,8 +1,8 @@
 // Your code here... XG[\\\\\\\\\\ 
 #include<stdio.h>
 int main(){
-    char a;
-    scanf("%c",&a);
-    printf("ASCII Value: %c=%d",a);
+    char c;
+    scanf("%c",&c);
+    printf("ASCII Value: %c = %d",c , c);
     return 0;
 }
