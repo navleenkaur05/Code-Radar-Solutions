@@ -1,8 +1,8 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    str *a;
-    scanf("%s",*a);
+    char a[60];
+    scanf("%s",a);
     printf("you entered:%s",a);
     return 0;
 }
