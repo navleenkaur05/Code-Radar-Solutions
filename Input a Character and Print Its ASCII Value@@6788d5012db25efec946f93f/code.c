@@ -1,5 +1,5 @@
 #inlcude<stdio.h>
-int main(){
+void main(){
     char c;
     scanf("%c",&c);
     printf("ASCII Value: %c=%d",c,c);
