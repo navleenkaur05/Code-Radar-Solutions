@@ -4,6 +4,11 @@ int main(){
     int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
-    printf("%d",a==b "true");
-    return o+0;
+    if(a==b){
+        printf("True");
+    }
+    else{
+        printf("False");
+    }
+    return 0;
 }
