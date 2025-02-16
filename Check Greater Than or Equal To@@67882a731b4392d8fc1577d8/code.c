@@ -1,5 +1,5 @@
 // Your code here...
-#inlcude<stdio.h>
+#include<stdio.h>
 int main(){
     int a,b;
     scanf("%d",&a);
@@ -9,5 +9,5 @@ int main(){
     }
     else{
         printf("False");
-    }    
+    }
 }
