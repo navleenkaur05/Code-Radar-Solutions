@@ -1,24 +1,31 @@
-// Your code here...
 #include<stdio.h>
 int main(){
-    int a,b;
-    char c;
-    scanf("%d %d %c", &a,&b,&c);
-    if(c == '+'){
-        printf("%d", a+b);
+    int a;
+    scanf("%d",&a);
+    switch(a){
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+        printf("31");
+        break;
+        case 2:
+        printf("28");
+        break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+        printf("30");
+        break;
+        default:
+        printf("Invalid month");
     }
-    else if(c== '-'){
-        printf("%d", a-b);
+    return 0;
+    
+    
+    
     }
-    else if(c== '*'){
-        printf("%d", a*b);
-    }
-    else if(c== '/'){
-        if(b==0){
-            printf("error");
-        }else{
-        printf("%d", a/b);
-        }
-    }
-    return 0;  
-}
