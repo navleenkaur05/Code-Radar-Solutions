@@ -14,4 +14,5 @@ int main (){
     unsigned int num;
     scanf("%u",&num);
     printf("%d",countingzeros(num));
+    return 0;
 }
