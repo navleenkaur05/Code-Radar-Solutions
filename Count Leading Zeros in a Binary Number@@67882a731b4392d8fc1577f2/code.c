@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int countingzeros(unsigned int  n){
-    int count 0;
+    int count= 0;
     for(int i=31; i>=0; i--){
         if((n>>i)&1){
             break;
