@@ -8,7 +8,7 @@ int countingzeros(unsigned int  n){
         }
         count++;
     }
-    return 0;
+    return count;
 }
 int main (){
     unsigned int num;
